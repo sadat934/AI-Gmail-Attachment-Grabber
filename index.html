@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <title>GrabMail - AI-Powered Gmail Attachment Downloader</title>
+  <meta name="description" content="Stop wasting time manually downloading Gmail attachments. GrabMail uses AI to find and download exactly what you need." />
+  <meta name="keywords" content="Gmail, attachment downloader, Chrome extension, AI, productivity" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner container">
+      <div class="nav-brand">
+        <svg class="icon icon-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        <span class="nav-title">GrabMail</span>
+      </div>
+      <a href="#" class="btn btn-primary btn-sm">
+        <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="21.17" x2="12" y1="8" y2="8"/><line x1="3.95" x2="8.54" y1="6.06" y2="14"/><line x1="10.88" x2="15.46" y1="21.94" y2="14"/></svg>
+        Add to Chrome
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <span class="badge badge-blue">
+          <svg class="icon-xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+          AI-Powered Email Automation
+        </span>
+        <h1 class="hero-heading">Stop wasting time manually downloading Gmail attachments</h1>
+        <p class="hero-desc">Let AI do the work. Simply describe what you need in plain English, or use manual search for precise control. GrabMail finds and downloads exactly those files — as a convenient ZIP or individually.</p>
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-primary btn-lg">
+            <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+            Add to Chrome
+          </a>
+          <a href="#" class="btn btn-outline btn-lg">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Stats -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <div class="stat-number">2-5s</div>
+        <p class="stat-label">Search time for 100 emails</p>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">200</div>
+        <p class="stat-label">Max emails per search</p>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">100%</div>
+        <p class="stat-label">Privacy-first by design</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- What is GrabMail -->
+  <section class="section section-gray">
+    <div class="container">
+      <h2 class="section-title">What is GrabMail?</h2>
+      <p class="section-desc">GrabMail is a powerful Chrome extension that revolutionizes how you download email attachments from Gmail. Whether you're a teacher collecting assignments, a professional managing invoices, or anyone organizing files from email, GrabMail saves you hours of manual work.</p>
+      <div class="features-grid">
+        <!-- AI-Powered Search -->
+        <div class="feature-card">
+          <svg class="icon-lg icon-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"/><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/><path d="M18.803 21.4a3 3 0 0 1-.401-1.375"/><path d="M5.601 20.025A3 3 0 0 1 6 18.65"/><path d="M12 18v-7.5"/></svg>
+          <h3 class="feature-title">AI-Powered Search</h3>
+          <p class="feature-desc">Describe what you need in plain English and let AI find it. Supports Claude, Gemini, and OpenRouter.</p>
+          <ul class="feature-list">
+            <li><svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Natural language understanding</li>
+            <li><svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Smart date parsing</li>
+            <li><svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Multiple AI providers</li>
+            <li><svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Intelligent filtering</li>
+          </ul>
+        </div>
+        <!-- Manual Search Mode -->
+        <div class="feature-card">
+          <svg class="icon-lg icon-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+          <h3 class="feature-title">Manual Search Mode</h3>
+          <p class="feature-desc">No AI? No problem. Use direct keyword, sender, file type, and date range filters.</p>
+          <ul class="feature-list">
+            <li><svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Keyword filtering</li>
+            <li><svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Sender filtering</li>
+            <li><svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Multiple file types</li>
+            <li><svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Date range control</li>
+          </ul>
+        </div>
+        <!-- Smart Download Options -->
+        <div class="feature-card">
+          <svg class="icon-lg icon-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+          <h3 class="feature-title">Smart Download Options</h3>
+          <p class="feature-desc">Choose between convenient ZIP archives or individual file downloads.</p>
+          <ul class="feature-list">
+            <li><svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>ZIP archive mode</li>
+            <li><svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Individual downloads</li>
+            <li><svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Automatic compression</li>
+            <li><svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Original filenames preserved</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Features Deep Dive -->
+  <section class="section section-white">
+    <div class="container">
+      <h2 class="section-title">Key Features</h2>
+
+      <!-- AI Search Feature -->
+      <div class="feature-row">
+        <div class="feature-text">
+          <h3 class="feature-row-title">🤖 AI-Powered Search</h3>
+          <p class="feature-row-desc">Describe what you want in natural language and watch GrabMail find it instantly. Our AI understands context, handles complex queries, and learns from your descriptions.</p>
+          <ul class="check-list">
+            <li><svg class="icon-check-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span><strong>Claude Sonnet 4:</strong> Best for complex queries</span></li>
+            <li><svg class="icon-check-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span><strong>Gemini 2.5 Flash:</strong> Fast and free tier available</span></li>
+            <li><svg class="icon-check-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span><strong>OpenRouter:</strong> Access to 100+ models</span></li>
+          </ul>
+          <p class="feature-example">Example: "Download all PDF invoices from last month"</p>
+        </div>
+        <div class="feature-image">
+          <img src="https://d2xsxph8kpxj0f.cloudfront.net/87164185/Dv22iYjhgqzDnSayZ6PK5j/grabmail-ai-feature-6RPb3vDXycAfJjNByRbXhv.webp" alt="AI-Powered Search" />
+        </div>
+      </div>
+
+      <!-- Manual Search Feature -->
+      <div class="feature-row feature-row-reverse">
+        <div class="feature-text">
+          <h3 class="feature-row-title">🔍 Manual Search Mode</h3>
+          <p class="feature-row-desc">No AI required! Use powerful filters for precise control: keywords, sender email, file types, and date ranges. Perfect for repetitive tasks and users who prefer not to use AI.</p>
+          <ul class="check-list">
+            <li><svg class="icon-check-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span><strong>Keyword filter:</strong> Search subject and filename</span></li>
+            <li><svg class="icon-check-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span><strong>Sender filter:</strong> Exact match or domain-based</span></li>
+            <li><svg class="icon-check-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span><strong>File types:</strong> pdf, docx, xlsx, jpg, zip, apk, and more</span></li>
+            <li><svg class="icon-check-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span><strong>Date range:</strong> 7 days to 1 year</span></li>
+          </ul>
+        </div>
+        <div class="feature-image">
+          <img src="https://d2xsxph8kpxj0f.cloudfront.net/87164185/Dv22iYjhgqzDnSayZ6PK5j/grabmail-manual-search-G9GBZ6JMEq8YMkf6mPEDh2.webp" alt="Manual Search" />
+        </div>
+      </div>
+
+      <!-- Download Options -->
+      <div class="feature-row">
+        <div class="feature-text">
+          <h3 class="feature-row-title">📦 Smart Download Options</h3>
+          <p class="feature-row-desc">Choose the download format that works best for you. Get everything in one ZIP file or download each attachment individually to your Downloads folder.</p>
+          <div class="download-modes">
+            <div class="download-mode-card download-mode-blue">
+              <h4>ZIP Archive Mode</h4>
+              <p>All files in one convenient package with automatic compression</p>
+            </div>
+            <div class="download-mode-card download-mode-green">
+              <h4>Individual Files Mode</h4>
+              <p>Each attachment downloads separately with original filenames preserved</p>
+            </div>
+          </div>
+        </div>
+        <div class="feature-image">
+          <div class="download-icon-box">
+            <svg class="icon-xl icon-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Use Cases -->
+  <section class="section section-gray">
+    <div class="container">
+      <h2 class="section-title">Perfect For</h2>
+      <p class="section-desc">GrabMail works for anyone who needs to organize email attachments. Here are some common use cases:</p>
+      <div class="usecases-grid">
+        <div class="usecase-card">
+          <svg class="icon-md icon-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          <h3 class="usecase-title">Teachers &amp; Educators</h3>
+          <p class="usecase-desc">Collect all student assignments in one ZIP file</p>
+          <p class="usecase-example">"Download all zip and apk files from students"</p>
+        </div>
+        <div class="usecase-card">
+          <svg class="icon-md icon-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          <h3 class="usecase-title">Business Professionals</h3>
+          <p class="usecase-desc">Organize invoices and contracts effortlessly</p>
+          <p class="usecase-example">"Get all PDF invoices from suppliers"</p>
+        </div>
+        <div class="usecase-card">
+          <svg class="icon-md icon-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" x2="12" y1="20" y2="10"/><line x1="18" x2="18" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="16"/></svg>
+          <h3 class="usecase-title">Project Managers</h3>
+          <p class="usecase-desc">Gather reports from team members instantly</p>
+          <p class="usecase-example">"Download Excel reports with 'Q1' in subject"</p>
+        </div>
+        <div class="usecase-card">
+          <svg class="icon-md icon-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>
+          <h3 class="usecase-title">Developers</h3>
+          <p class="usecase-desc">Collect code submissions from your team</p>
+          <p class="usecase-example">"Get all ZIP files from developers@team.com"</p>
+        </div>
+        <div class="usecase-card">
+          <svg class="icon-md icon-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          <h3 class="usecase-title">Photo Enthusiasts</h3>
+          <p class="usecase-desc">Backup family photos in bulk</p>
+          <p class="usecase-example">"Download all images from family emails"</p>
+        </div>
+        <div class="usecase-card">
+          <svg class="icon-md icon-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          <h3 class="usecase-title">Anyone Managing Email</h3>
+          <p class="usecase-desc">Find and download attachments faster</p>
+          <p class="usecase-example">"Search by sender, date, file type"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="section section-white">
+    <div class="container">
+      <h2 class="section-title">How It Works</h2>
+      <div class="steps-grid">
+        <div class="step-item">
+          <div class="step-circle">1</div>
+          <h3 class="step-title">Install</h3>
+          <p class="step-desc">Add GrabMail to Chrome from the Chrome Web Store and click the extension icon</p>
+        </div>
+        <div class="step-item">
+          <div class="step-circle">2</div>
+          <h3 class="step-title">Connect &amp; Choose</h3>
+          <p class="step-desc">Sign in with Google and select your search mode (AI or Manual)</p>
+        </div>
+        <div class="step-item">
+          <div class="step-circle">3</div>
+          <h3 class="step-title">Search &amp; Download</h3>
+          <p class="step-desc">Describe what you need and download as ZIP or individual files</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Privacy Section -->
+  <section class="section section-privacy">
+    <div class="container privacy-grid">
+      <div class="privacy-text">
+        <span class="badge badge-green">
+          <svg class="icon-xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          Privacy First
+        </span>
+        <h2 class="privacy-heading">Your Data Stays Secure</h2>
+        <p class="privacy-desc">GrabMail is built with privacy as the foundation. We don't collect, store, or share your personal data. Here's what we do:</p>
+        <ul class="check-list">
+          <li><svg class="icon-check-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>Only reads attachment metadata</span></li>
+          <li><svg class="icon-check-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>Never reads email body content</span></li>
+          <li><svg class="icon-check-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>No data stored on external servers</span></li>
+          <li><svg class="icon-check-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>All processing happens locally</span></li>
+          <li><svg class="icon-check-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>AI only sees: filename, sender, subject, file size</span></li>
+        </ul>
+        <p class="privacy-compliance">
+          ✓ Open source — review the code yourself<br/>
+          ✓ GDPR, CCPA, and COPPA compliant<br/>
+          ✓ Transparent permissions — only what we need
+        </p>
+      </div>
+      <div class="privacy-image">
+        <img src="https://d2xsxph8kpxj0f.cloudfront.net/87164185/Dv22iYjhgqzDnSayZ6PK5j/grabmail-privacy-shield-KYJoc3jyC8Ai8i8wJYvsp.webp" alt="Privacy & Security" />
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section section-white">
+    <div class="container container-narrow">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>Is my data safe with GrabMail?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. GrabMail operates entirely locally in your browser. We only access attachment metadata (filename, sender, date, size) — never email content. No data is stored on external servers, and you can review our open-source code anytime.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>Do I need to use AI mode?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>No! Manual Search mode works perfectly without AI. Use keyword filters, sender filters, file type selection, and date ranges for precise control. Choose AI mode only if you prefer natural language descriptions.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>Which AI providers do you support?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>We support Claude (Anthropic), Gemini (Google), and OpenRouter. You provide your own API key directly to your chosen provider — we never handle your keys on our servers.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>What permissions does GrabMail need?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>We request minimal permissions: identity (for Gmail OAuth), downloads (to save files), storage (to remember preferences), and gmail.googleapis.com (read-only access). We never modify or delete emails.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>Can I download large batches of files?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! You can process up to 200 emails per search and download all matching attachments as a single ZIP file or individually. Download speed depends on file sizes and your connection.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>Is GrabMail free?</span>
+            <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>GrabMail is free to use. Manual Search mode requires no API keys. For AI mode, you'll need your own API key from your chosen provider (Claude, Gemini, or OpenRouter).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+    <div class="container cta-content">
+      <h2 class="cta-heading">Ready to Save Hours of Work?</h2>
+      <p class="cta-desc">Join thousands of users who are automating their email attachment downloads with GrabMail. It's free, it's fast, and it's privacy-first.</p>
+      <a href="#" class="btn btn-white btn-lg">
+        <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="21.17" x2="12" y1="8" y2="8"/><line x1="3.95" x2="8.54" y1="6.06" y2="14"/><line x1="10.88" x2="15.46" y1="21.94" y2="14"/></svg>
+        Add GrabMail to Chrome
+        <svg class="icon-xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <svg class="icon-sm icon-blue-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <span class="footer-brand-name">GrabMail</span>
+          </div>
+          <p class="footer-tagline">AI-powered Gmail attachment downloader</p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Product</h4>
+          <ul class="footer-links">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Chrome Web Store</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Support</h4>
+          <ul class="footer-links">
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Legal</h4>
+          <ul class="footer-links">
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Open Source</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 GrabMail. Privacy-first by design. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
