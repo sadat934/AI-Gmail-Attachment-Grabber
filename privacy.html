@@ -1,400 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-  <title>Privacy Policy - GrabMail</title>
-  <meta name="description" content="GrabMail Privacy Policy - We don't collect, store, or share your personal data. Privacy-first by design." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-  <style>
-    .privacy-page {
-      padding: 2rem 0 4rem;
-      max-width: 900px;
-      margin: 0 auto;
-    }
-    .privacy-header {
-      text-align: center;
-      padding: 3rem 0;
-      background: linear-gradient(to bottom right, var(--emerald-50), var(--blue-50));
-      border-radius: 1rem;
-      margin-bottom: 3rem;
-    }
-    .privacy-header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-      color: var(--slate-900);
-    }
-    .privacy-dates {
-      color: var(--slate-600);
-      font-size: 0.875rem;
-    }
-    .privacy-content h2 {
-      font-size: 1.75rem;
-      margin-top: 2.5rem;
-      margin-bottom: 1rem;
-      color: var(--slate-900);
-      border-bottom: 2px solid var(--blue-200);
-      padding-bottom: 0.5rem;
-    }
-    .privacy-content h3 {
-      font-size: 1.25rem;
-      margin-top: 1.5rem;
-      margin-bottom: 0.75rem;
-      color: var(--slate-800);
-    }
-    .privacy-content p {
-      margin-bottom: 1rem;
-      line-height: 1.8;
-      color: var(--slate-700);
-    }
-    .privacy-content ul {
-      list-style: none;
-      margin-bottom: 1.5rem;
-    }
-    .privacy-content ul li {
-      padding: 0.5rem 0;
-      padding-left: 1.5rem;
-      position: relative;
-      color: var(--slate-700);
-      line-height: 1.7;
-    }
-    .privacy-content ul li::before {
-      content: "•";
-      position: absolute;
-      left: 0;
-      color: var(--blue-600);
-      font-weight: bold;
-    }
-    .no-collect-list li::before {
-      content: "❌";
-    }
-    .rights-list li::before {
-      content: "✅";
-    }
-    .highlight-box {
-      background: var(--blue-50);
-      border-left: 4px solid var(--blue-600);
-      padding: 1.5rem;
-      margin: 2rem 0;
-      border-radius: 0.5rem;
-    }
-    .highlight-box p {
-      margin: 0;
-      font-weight: 600;
-      color: var(--slate-900);
-    }
-    .data-box {
-      background: var(--slate-50);
-      padding: 1rem 1.5rem;
-      border-radius: 0.5rem;
-      margin: 1rem 0;
-    }
-    .data-box strong {
-      color: var(--slate-900);
-      display: block;
-      margin-bottom: 0.25rem;
-    }
-    .certification-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1rem;
-      margin: 1.5rem 0;
-    }
-    .cert-badge {
-      background: var(--emerald-50);
-      border: 2px solid var(--emerald-200);
-      padding: 1rem;
-      text-align: center;
-      border-radius: 0.5rem;
-      font-weight: 600;
-      color: var(--emerald-700);
-    }
-    .commitment-list {
-      background: var(--emerald-50);
-      padding: 1.5rem;
-      border-radius: 0.5rem;
-      margin: 1.5rem 0;
-    }
-    .commitment-list ol {
-      list-style-position: inside;
-      list-style-type: decimal;
-    }
-    .commitment-list li {
-      padding: 0.5rem 0;
-      color: var(--slate-800);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - AI Gmail Attachment Grabber</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #7f8c8d;
+        }
+        .highlight {
+            background: #e8f4f8;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+        .update-date {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        ul {
+            line-height: 1.8;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-
-  <!-- Navigation -->
-  <nav class="nav">
-    <div class="nav-inner container">
-      <div class="nav-brand">
-        <a href="index.html" style="display: flex; align-items: center; gap: 0.5rem;">
-          <svg class="icon icon-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-          <span class="nav-title">GrabMail</span>
-        </a>
-      </div>
-      <a href="index.html" class="btn btn-outline btn-sm">← Back to Home</a>
-    </div>
-  </nav>
-
-  <!-- Privacy Policy Content -->
-  <div class="container privacy-page">
-    <div class="privacy-header">
-      <h1>Privacy Policy for GrabMail</h1>
-      <p class="privacy-dates">
-        <strong>Effective Date:</strong> June 7, 2026<br>
-        <strong>Last Updated:</strong> June 7, 2026
-      </p>
-    </div>
-
-    <div class="privacy-content">
-      <h2>Introduction</h2>
-      <p>GrabMail ("we", "our", "the Extension") is a Chrome extension that helps users download email attachments from Gmail. This Privacy Policy explains our data practices in compliance with Chrome Web Store policies, GDPR, CCPA, and other privacy regulations.</p>
-
-      <div class="highlight-box">
-        <p>Our Core Privacy Principle: GrabMail does NOT collect, store, transmit, or share any personal user data beyond what is absolutely necessary to perform its stated function, and all such data is processed temporarily and discarded immediately.</p>
-      </div>
-
-      <h2>What Data We Do NOT Collect</h2>
-      <p>We explicitly do NOT collect:</p>
-      <ul class="no-collect-list">
-        <li>Personal identifiable information (names, addresses, emails, phone numbers)</li>
-        <li>Financial or payment information</li>
-        <li>Authentication passwords or long-term credentials</li>
-        <li>Web browsing activity or history</li>
-        <li>Email body content or personal communications</li>
-        <li>Location data or IP addresses</li>
-        <li>Usage analytics or telemetry</li>
-        <li>Any data for sale to third parties</li>
-        <li>Any data for advertising or marketing purposes</li>
-      </ul>
-
-      <h2>What Data We Access Temporarily</h2>
-      <p>To perform its function (downloading Gmail attachments), GrabMail temporarily accesses:</p>
-
-      <h3>Gmail Attachment Metadata (Not Stored)</h3>
-      <div class="data-box">
-        <strong>What:</strong> Attachment filename, file size, MIME type, email sender, email subject, email date
-      </div>
-      <div class="data-box">
-        <strong>Why:</strong> To identify which attachments match your search criteria
-      </div>
-      <div class="data-box">
-        <strong>How Long:</strong> Processed in memory only, discarded immediately after use
-      </div>
-      <div class="data-box">
-        <strong>Storage:</strong> No permanent storage - data exists only during active use
-      </div>
-
-      <h3>Your Preferences (Stored Locally Only)</h3>
-      <div class="data-box">
-        <strong>What:</strong> AI provider choice, API key (if using AI), last search settings, download preferences
-      </div>
-      <div class="data-box">
-        <strong>Why:</strong> To remember your preferences between sessions
-      </div>
-      <div class="data-box">
-        <strong>Where:</strong> Chrome's local storage (chrome.storage.local) on your device only
-      </div>
-      <div class="data-box">
-        <strong>Control:</strong> You can clear anytime by signing out or uninstalling
-      </div>
-
-      <h2>How We Use Data</h2>
-      <ol style="list-style-position: inside; margin-bottom: 1rem;">
-        <li><strong>Search Function:</strong> You enter search criteria → Extension queries Gmail API → Gmail returns matching email IDs → Extension fetches metadata → Results displayed → Data discarded</li>
-        <li><strong>Download Function:</strong> You select files → Extension downloads attachments from Gmail → Files saved to your Downloads folder → No intermediate storage → No copies retained</li>
-        <li><strong>AI Mode (Optional):</strong> If you use AI mode, only filename, sender, subject, and file size are sent to your chosen AI provider. Your API key goes directly to the AI provider. You can avoid this entirely by using Manual Search mode</li>
-      </ol>
-
-      <h2>Permissions Explained</h2>
-      <ul>
-        <li><strong>identity</strong> - Gmail OAuth sign-in (no password handling)</li>
-        <li><strong>downloads</strong> - Save files to Downloads folder</li>
-        <li><strong>storage</strong> - Remember preferences locally</li>
-        <li><strong>gmail.googleapis.com</strong> - Access Gmail API (read-only)</li>
-      </ul>
-
-      <h2>Third-Party Services</h2>
-      
-      <h3>Gmail API (Required)</h3>
-      <ul>
-        <li><strong>Provider:</strong> Google</li>
-        <li><strong>Purpose:</strong> To access email metadata and download attachments</li>
-        <li><strong>Data Shared:</strong> OAuth token, email queries, email/attachment IDs</li>
-        <li><strong>Privacy Policy:</strong> <a href="https://policies.google.com/privacy" style="color: var(--blue-600);">https://policies.google.com/privacy</a></li>
-      </ul>
-
-      <h3>AI Providers (Optional)</h3>
-      <p>Only if you use AI Search mode:</p>
-      <ul>
-        <li><strong>Claude (Anthropic):</strong> <a href="https://www.anthropic.com/privacy" style="color: var(--blue-600);">https://www.anthropic.com/privacy</a></li>
-        <li><strong>Gemini (Google):</strong> <a href="https://ai.google.dev/terms" style="color: var(--blue-600);">https://ai.google.dev/terms</a></li>
-        <li><strong>OpenRouter:</strong> <a href="https://openrouter.ai/privacy" style="color: var(--blue-600);">https://openrouter.ai/privacy</a></li>
-      </ul>
-      <p><strong>Data Sent:</strong> Filename, sender, subject, file size only<br>
-      <strong>Opt-Out:</strong> Use Manual Search mode</p>
-
-      <h2>Data Retention</h2>
-      <div class="highlight-box">
-        <p>We retain ZERO data.</p>
-      </div>
-      <ul>
-        <li>No servers, no databases, no logs</li>
-        <li>When you uninstall: All local preferences deleted by Chrome</li>
-        <li>Your Gmail data remains untouched</li>
-        <li>Downloaded files remain in your Downloads folder</li>
-      </ul>
-
-      <h2>Your Rights</h2>
-      <ul class="rights-list">
-        <li><strong>Access:</strong> Review our open-source code</li>
-        <li><strong>Delete:</strong> Uninstall extension anytime</li>
-        <li><strong>Opt-Out:</strong> Don't use AI mode if you prefer</li>
-        <li><strong>Revoke:</strong> Remove Gmail access at <a href="https://myaccount.google.com/permissions" style="color: var(--blue-600);">https://myaccount.google.com/permissions</a></li>
-      </ul>
-      <p><strong>To remove all data:</strong> Sign out → Uninstall extension → (Optional) Revoke OAuth at Google Account</p>
-
-      <h2>Children's Privacy</h2>
-      <p>We don't collect data from anyone, including children. COPPA and GDPR compliant by design (no data collection = no age restrictions needed). Parental supervision recommended for minors.</p>
-
-      <h2>Security</h2>
-      <ul class="rights-list">
-        <li>HTTPS encryption for all API calls</li>
-        <li>OAuth 2.0 industry-standard authentication</li>
-        <li>Secure storage for API keys</li>
-        <li>Minimal permissions requested</li>
-        <li>No remote code execution</li>
-        <li>Open-source for security audits</li>
-      </ul>
-
-      <h2>Compliance</h2>
-      <div class="certification-grid">
-        <div class="cert-badge">Chrome Web Store<br>✅ Compliant</div>
-        <div class="cert-badge">GDPR<br>✅ Compliant</div>
-        <div class="cert-badge">CCPA<br>✅ Compliant</div>
-        <div class="cert-badge">COPPA<br>✅ Compliant</div>
-      </div>
-      <ul class="rights-list">
-        <li><strong>Chrome Web Store Policies:</strong> Limited Use, User Data, Minimum Permissions</li>
-        <li><strong>GDPR:</strong> No personal data processing</li>
-        <li><strong>CCPA:</strong> No sale of personal information</li>
-        <li><strong>COPPA:</strong> No data collection from children</li>
-      </ul>
-
-      <h2>Changes to This Policy</h2>
-      <p>Updates will be reflected in:</p>
-      <ul>
-        <li>Updated date at top of this document</li>
-        <li>Chrome Web Store listing announcement (for major changes)</li>
-        <li>Continued use after changes = acceptance</li>
-      </ul>
-      <p><strong>Version History:</strong></p>
-      <ul>
-        <li>v1.0 (June 7, 2026): Initial policy</li>
-      </ul>
-
-      <h2>Chrome Web Store Data Disclosure</h2>
-      
-      <h3>Data Collected</h3>
-      <ul>
-        <li><strong>Personal Information:</strong> NO</li>
-        <li><strong>Health Information:</strong> NO</li>
-        <li><strong>Financial Information:</strong> NO</li>
-        <li><strong>Authentication Information:</strong> Temporary OAuth token only</li>
-        <li><strong>Website Content:</strong> Gmail attachment metadata only (not email body)</li>
-        <li><strong>User Activity:</strong> NO</li>
-        <li><strong>Personal Communications:</strong> NO</li>
-      </ul>
-
-      <h3>Certification</h3>
-      <ul class="rights-list">
-        <li>Data used only for stated purpose (downloading attachments)</li>
-        <li>Not sold to third parties</li>
-        <li>Not used for advertising</li>
-        <li>Complies with Chrome Web Store Limited Use Policy</li>
-      </ul>
-
-      <h2>Contact</h2>
-      <ul>
-        <li><strong>Privacy Questions:</strong> Review this policy and extension documentation</li>
-        <li><strong>Report Violations:</strong> Use Chrome Web Store reporting</li>
-        <li><strong>Revoke Access:</strong> <a href="https://myaccount.google.com/permissions" style="color: var(--blue-600);">https://myaccount.google.com/permissions</a></li>
-      </ul>
-
-      <h2>Transparency Commitment</h2>
-      <div class="commitment-list">
-        <p><strong>We commit to:</strong></p>
-        <ol>
-          <li>Never collect data without disclosure</li>
-          <li>Never change practices without policy update</li>
-          <li>Never sell or share user data</li>
-          <li>Always operate with maximum transparency</li>
-          <li>Always prioritize privacy over monetization</li>
-        </ol>
-      </div>
-
-      <p><strong>Verify Our Claims:</strong></p>
-      <ul>
-        <li>Review open-source code</li>
-        <li>Check network requests in Chrome DevTools</li>
-        <li>No tracking scripts, analytics, or telemetry</li>
-      </ul>
-
-      <div class="highlight-box" style="margin-top: 3rem;">
-        <p style="text-align: center; font-size: 1.125rem;">GrabMail: Privacy-first by design. We don't collect your data because we respect your privacy.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer class="footer">
     <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <div class="footer-logo">
-            <svg class="icon-sm icon-blue-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-            <span class="footer-brand-name">GrabMail</span>
-          </div>
-          <p class="footer-tagline">AI-powered Gmail attachment downloader</p>
-        </div>
-        <div class="footer-col">
-          <h4 class="footer-col-title">Product</h4>
-          <ul class="footer-links">
-            <li><a href="index.html#features">Features</a></li>
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="#">Chrome Web Store</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4 class="footer-col-title">Support</h4>
-          <ul class="footer-links">
-            <li><a href="#">Documentation</a></li>
-            <li><a href="index.html#faq">FAQ</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4 class="footer-col-title">Legal</h4>
-          <ul class="footer-links">
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="#">Open Source</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 GrabMail. Privacy-first by design. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
+        <h1>Privacy Policy for AI Gmail Attachment Grabber (GrabMail)</h1>
+        <p class="update-date"><strong>Last Updated:</strong> June 9, 2026</p>
 
-  <script src="script.js"></script>
+        <h2>Introduction</h2>
+        <p>AI Gmail Attachment Grabber ("GrabMail," "we," "our," or "the extension") is a Chrome browser extension that helps users search their Gmail inbox and download email attachments using AI-powered natural language processing.</p>
+        <p>This Privacy Policy explains how we handle your information when you use our extension.</p>
+
+        <h2>Information We Access</h2>
+
+        <h3>Gmail Data</h3>
+        <p>When you grant permission, our extension accesses:</p>
+        <ul>
+            <li><strong>Email Metadata:</strong> Subject lines, sender information, recipient information, dates, and message IDs</li>
+            <li><strong>Email Snippets:</strong> Brief previews of email content provided by Gmail API</li>
+            <li><strong>Attachment Metadata:</strong> Filenames, file sizes, MIME types, and attachment IDs</li>
+            <li><strong>Attachment Content:</strong> Actual file data when you explicitly request to download files</li>
+        </ul>
+
+        <h3>What We Do NOT Access</h3>
+        <ul>
+            <li>Full email body content (beyond snippets provided by Gmail)</li>
+            <li>Email drafts or sent messages</li>
+            <li>Gmail settings or configurations</li>
+            <li>Contacts or address book</li>
+            <li>Calendar data</li>
+            <li>Any other Google services</li>
+        </ul>
+
+        <h2>How We Use Your Data</h2>
+
+        <div class="highlight">
+            <h3>Local Processing Only</h3>
+            <p>All data processing happens locally in your browser:</p>
+            <ul>
+                <li>Email metadata is fetched and displayed in the extension popup</li>
+                <li>Search queries are processed client-side</li>
+                <li>AI analysis (if enabled) uses YOUR OWN API key with your chosen provider</li>
+                <li><strong>No data is transmitted to our servers (we don't have servers!)</strong></li>
+            </ul>
+        </div>
+
+        <h3>AI Processing</h3>
+        <p>If you choose to use AI search features:</p>
+        <ul>
+            <li>Email metadata may be sent to your chosen AI provider (Claude, Gemini, or OpenRouter)</li>
+            <li>You provide your own API key</li>
+            <li>Communication happens directly between your browser and the AI provider</li>
+            <li>We do not intercept, store, or process this communication</li>
+            <li>Refer to your AI provider's privacy policy for how they handle data</li>
+        </ul>
+
+        <h3>Manual Search Mode</h3>
+        <p>Users can opt for Manual Search mode which:</p>
+        <ul>
+            <li>Uses Gmail's native search without AI</li>
+            <li>Processes everything locally</li>
+            <li>Does not send any data to AI providers</li>
+        </ul>
+
+        <h2>Data Storage</h2>
+
+        <h3>What We Store Locally</h3>
+        <p>Using Chrome's Storage API, we store:</p>
+        <ul>
+            <li>Your OAuth access token (encrypted by Chrome)</li>
+            <li>Your AI provider API key (if provided)</li>
+            <li>Your preferred settings (AI provider choice, search mode, etc.)</li>
+        </ul>
+
+        <h3>What We Do NOT Store</h3>
+        <ul>
+            <li>Email content or metadata</li>
+            <li>Search history</li>
+            <li>Downloaded attachments</li>
+            <li>User behavioral data</li>
+            <li>Analytics or tracking data</li>
+        </ul>
+
+        <h2>Data Sharing</h2>
+
+        <div class="highlight">
+            <h3>We Do Not Share Your Data</h3>
+            <ul>
+                <li>We do not sell user data</li>
+                <li>We do not share user data with third parties</li>
+                <li>We do not use user data for advertising</li>
+                <li>We do not collect aggregate statistics</li>
+            </ul>
+        </div>
+
+        <h3>Third-Party Services</h3>
+        <p>The only third-party communication occurs when:</p>
+        <ul>
+            <li><strong>Gmail API:</strong> Required to access your emails (Google's privacy policy applies)</li>
+            <li><strong>AI Providers (Optional):</strong> If you enable AI search with your API key (their privacy policies apply)</li>
+        </ul>
+
+        <h2>Permissions Explained</h2>
+
+        <h3>gmail.readonly</h3>
+        <p>We request the <code>gmail.readonly</code> scope which allows us to:</p>
+        <ul>
+            <li>Read your email messages</li>
+            <li>Access attachment metadata and content</li>
+            <li>Search your mailbox</li>
+        </ul>
+        <p>This scope does NOT allow us to:</p>
+        <ul>
+            <li>Modify or delete your emails</li>
+            <li>Send emails on your behalf</li>
+            <li>Change your Gmail settings</li>
+        </ul>
+
+        <h3>Other Permissions</h3>
+        <ul>
+            <li><strong>identity:</strong> Required for Google OAuth authentication to access Gmail API</li>
+            <li><strong>downloads:</strong> Required to save attachments to your computer when you request downloads</li>
+            <li><strong>storage:</strong> Required to save your settings and authentication token locally in your browser</li>
+        </ul>
+
+        <h2>User Control</h2>
+
+        <h3>You Have Full Control</h3>
+        <ul>
+            <li><strong>Sign Out:</strong> Remove access token and clear settings anytime</li>
+            <li><strong>Revoke Access:</strong> Revoke extension permissions via Google Account settings</li>
+            <li><strong>Uninstall:</strong> Remove all stored data by uninstalling the extension</li>
+            <li><strong>Choose AI Provider:</strong> Select which AI service to use (or none with Manual mode)</li>
+            <li><strong>API Keys:</strong> Manage your own API keys; delete them anytime</li>
+        </ul>
+
+        <h3>How to Revoke Access</h3>
+        <ol>
+            <li>Go to your Google Account: <a href="https://myaccount.google.com/permissions" target="_blank">https://myaccount.google.com/permissions</a></li>
+            <li>Find "AI Gmail Attachment Grabber"</li>
+            <li>Click "Remove Access"</li>
+        </ol>
+
+        <h2>Security</h2>
+
+        <h3>How We Protect Your Data</h3>
+        <ul>
+            <li>All data processing happens locally in your browser</li>
+            <li>OAuth tokens are encrypted by Chrome</li>
+            <li>We use HTTPS for all API communications</li>
+            <li>We follow Chrome extension security best practices</li>
+            <li>Open-source code available for audit</li>
+        </ul>
+
+        <h2>Compliance</h2>
+
+        <h3>Google API Services User Data Policy</h3>
+        <p>We comply with Google API Services User Data Policy, including the Limited Use requirements. Specifically:</p>
+        <ul>
+            <li>We only use Gmail API to provide the functionality described</li>
+            <li>We do not use Gmail data for serving ads</li>
+            <li>We do not sell Gmail user data</li>
+            <li>We do not allow humans to read Gmail data unless necessary for security purposes, legal compliance, or with user consent</li>
+        </ul>
+
+        <h3>GDPR Compliance</h3>
+        <p>For users in the European Union:</p>
+        <ul>
+            <li><strong>Legal Basis:</strong> Consent (you grant permission during OAuth)</li>
+            <li><strong>Data Minimization:</strong> We only access necessary data</li>
+            <li><strong>Right to Access:</strong> You can view all data in the extension</li>
+            <li><strong>Right to Erasure:</strong> Uninstall to remove all data</li>
+            <li><strong>Right to Portability:</strong> Export features available in Gmail directly</li>
+            <li><strong>Data Controller:</strong> You are the controller of your own data</li>
+        </ul>
+
+        <h2>Contact Us</h2>
+        <p>If you have questions about this Privacy Policy:</p>
+        <ul>
+            <li><strong>Email:</strong> sadatmoya@gmail.com</li>
+            <li><strong>Chrome Web Store:</strong> <a href="https://chromewebstore.google.com/detail/ai-gmail-attachment-grabb/jfdkgidcdiegphiakplhlgnhplphnfif" target="_blank">Visit Extension Page</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/sadat934/AI-Gmail-Attachment-Grabber" target="_blank">View Source Code</a></li>
+        </ul>
+
+        <h2>Summary</h2>
+
+        <div class="highlight">
+            <p><strong>In Plain English:</strong></p>
+            <ul>
+                <li>✅ We help you search your own emails and download your own attachments</li>
+                <li>✅ Everything happens locally in your browser</li>
+                <li>✅ We never see, store, or transmit your email data</li>
+                <li>✅ You control your own API keys if using AI features</li>
+                <li>✅ You can revoke access and delete everything anytime</li>
+                <li>❌ We don't sell data</li>
+                <li>❌ We don't use data for ads</li>
+                <li>❌ We don't store email content</li>
+                <li>❌ We don't have access to your data</li>
+            </ul>
+            <p><strong>Your privacy and security are our top priorities.</strong></p>
+        </div>
+
+        <hr style="margin: 40px 0; border: none; border-top: 1px solid #ddd;">
+
+        <p style="text-align: center; color: #7f8c8d;"><em>By using AI Gmail Attachment Grabber, you agree to this Privacy Policy.</em></p>
+    </div>
 </body>
 </html>
